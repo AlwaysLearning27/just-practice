@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <a name="top">
+        <div>
+                The href attribute of an anchor tag defines the actual location the link will represent. Absolute and relative paths are two reference methods for connecting sites and pages. While both methods can be used when creating links that point to content in our own site, only absolute can be used when pointing to content that is outside of your domain.
+
+                Absolute paths are the entire length of the link required to identify one resource, whether it is a page, image, script, or media file. The URL http://www.msn.com/news/index.htm tells us we want to go to the index page in the news folder of the msn.com website. If this was our site, and we wanted to go to the index.htm file in the sports folder, we could write it as http://www.msn.com/sports/index.htm (absolute) or ../sports/index.htm (relative). The initial .. instructs the browser that our intention is to go back one layer of depth (i.e. “up” one level in folders) and then into the sports folder, which in this example sits in the same parent folder as our news page.
+                
+                Using just an initial / without .. tells the server that we want to start at the root folder of the server and navigate from there, meaning we start with the base path.
+                
+                A base path is everything needed to get us to the index page of the root folder of the site. This is typically http://www.yoursitename.com, and is the part you find missing in the relative path above. The combination of the base path, and relative path, equals your absolute path.
+                
+                Target
+        </div>
+        <h2>bdo bidirectional override practice</h2>
+        <p>this text goes left to right</p>
+        <p>
+            <bdo dir="rtl">this text will go right to left 123456789</bdo>
+        </p>
+        <hr>
+        <img src="coffee.jpg" alt="coffee bag" width="400">
+        <hr>
+        <button>Click Me</button>
+        <button>Close Tab</button>
+        <hr>
+        <iframe src="file:///C:/Users/olyas/Desktop/CODING/document.html#top" width="1200px" height="400px"></iframe>
+        <hr>
+    </body>
+    <footer>
+        <a href="#top">Back to top</a>
+    </footer>
+</html>
